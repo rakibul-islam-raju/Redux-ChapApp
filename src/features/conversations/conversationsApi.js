@@ -23,7 +23,6 @@ export const conversationsApi = apiSlice.injectEndpoints({
 					const { users, message, timestamp } = arg.data;
 					const senderUser = users.find((user) => user.email === arg.sender);
 					const recieverUser = users.find((user) => user.email !== arg.sender);
-					console.log("sender =>", arg.sender);
 
 					dispatch(
 						messagesApi.endpoints.addMessage.initiate({

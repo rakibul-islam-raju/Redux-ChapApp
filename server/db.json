@@ -47,8 +47,8 @@
           "id": 5
         }
       ],
-      "message": "hellooooo...",
-      "timestamp": 1674403618211,
+      "message": "bro",
+      "timestamp": 1674456096540,
       "id": 1
     }
   ],
@@ -66,9 +66,26 @@
         "name": "raju2",
         "id": 5
       },
-      "message": "hellooooo...",
-      "timestamp": 1674403618211,
+      "message": "hello",
+      "timestamp": 1674455681534,
       "id": 1
+    },
+    {
+      "conversationId": 1,
+      "sender": {
+        "email": "raju@mail.com",
+        "name": "Raju",
+        "id": 4
+      },
+      "receiver": {
+        "email": "raju2@mail.com",
+        "password": "$2a$10$xtcw/KcKu3DsFS.tv9m8iuQ4TaIBVOGZc.wj/X3sUD/K9GFgKwF.y",
+        "name": "raju2",
+        "id": 5
+      },
+      "message": "bro",
+      "timestamp": 1674456096540,
+      "id": 2
     }
   ]
 }
